@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		4B5FE00D293B5D7F009B0A7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FE00C293B5D7F009B0A7B /* AppDelegate.swift */; };
 		4B5FE00F293B5D7F009B0A7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FE00E293B5D7F009B0A7B /* SceneDelegate.swift */; };
-		4B5FE011293B5D7F009B0A7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FE010293B5D7F009B0A7B /* ViewController.swift */; };
 		4B5FE014293B5D7F009B0A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FE012293B5D7F009B0A7B /* Main.storyboard */; };
 		4B5FE016293B5D80009B0A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FE015293B5D80009B0A7B /* Assets.xcassets */; };
 		4B5FE019293B5D80009B0A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FE017293B5D80009B0A7B /* LaunchScreen.storyboard */; };
+		4B5FE021293B5DA9009B0A7B /* FireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FE020293B5DA9009B0A7B /* FireViewController.swift */; };
+		4B5FE023293B5DC4009B0A7B /* SnowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FE022293B5DC4009B0A7B /* SnowViewController.swift */; };
+		4B5FE025293B95A9009B0A7B /* MyFireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FE024293B95A9009B0A7B /* MyFireParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B5FE009293B5D7F009B0A7B /* ViewDidLoadAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewDidLoadAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5FE00C293B5D7F009B0A7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B5FE00E293B5D7F009B0A7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B5FE010293B5D7F009B0A7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B5FE013293B5D7F009B0A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B5FE015293B5D80009B0A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B5FE018293B5D80009B0A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B5FE01A293B5D80009B0A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5FE020293B5DA9009B0A7B /* FireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireViewController.swift; sourceTree = "<group>"; };
+		4B5FE022293B5DC4009B0A7B /* SnowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowViewController.swift; sourceTree = "<group>"; };
+		4B5FE024293B95A9009B0A7B /* MyFireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyFireParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				4B5FE00C293B5D7F009B0A7B /* AppDelegate.swift */,
 				4B5FE00E293B5D7F009B0A7B /* SceneDelegate.swift */,
-				4B5FE010293B5D7F009B0A7B /* ViewController.swift */,
+				4B5FE020293B5DA9009B0A7B /* FireViewController.swift */,
+				4B5FE024293B95A9009B0A7B /* MyFireParticle.sks */,
+				4B5FE022293B5DC4009B0A7B /* SnowViewController.swift */,
 				4B5FE012293B5D7F009B0A7B /* Main.storyboard */,
 				4B5FE015293B5D80009B0A7B /* Assets.xcassets */,
 				4B5FE017293B5D80009B0A7B /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5FE019293B5D80009B0A7B /* LaunchScreen.storyboard in Resources */,
+				4B5FE025293B95A9009B0A7B /* MyFireParticle.sks in Resources */,
 				4B5FE016293B5D80009B0A7B /* Assets.xcassets in Resources */,
 				4B5FE014293B5D7F009B0A7B /* Main.storyboard in Resources */,
 			);
@@ -138,7 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B5FE011293B5D7F009B0A7B /* ViewController.swift in Sources */,
+				4B5FE021293B5DA9009B0A7B /* FireViewController.swift in Sources */,
+				4B5FE023293B5DC4009B0A7B /* SnowViewController.swift in Sources */,
 				4B5FE00D293B5D7F009B0A7B /* AppDelegate.swift in Sources */,
 				4B5FE00F293B5D7F009B0A7B /* SceneDelegate.swift in Sources */,
 			);
